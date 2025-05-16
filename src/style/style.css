@@ -1,0 +1,32 @@
+.container{
+    top:0;
+    margin-top: 0;;
+}
+.banner{
+    /* background-color: #311a55; */
+    /* background-color: #d6e2b7; */
+    /* background-color: #e4ebd0; */
+    /* background-color: #8e7bac; */
+    width: 95%;
+
+}
+.banner-heading{
+    font-size: 50px;
+}
+.banner-para{
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 40px;
+    color: gray;
+}
+.container {
+    width: 95% !important;
+}
+.btn-purple{
+    margin: 10px;
+    background-color:#311a55 !important  ;
+    color: white !important;
+}
+.a-purple{
+    color: #311a55;
+}
