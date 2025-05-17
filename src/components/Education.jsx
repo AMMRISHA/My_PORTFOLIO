@@ -11,6 +11,7 @@ function Education({ education }) {
             <div className="col-md-8">
                 <h4>{item.institution}</h4>
             <h6>{item.degree} — {item.year}</h6>
+            
             </div>
          
         </div>
