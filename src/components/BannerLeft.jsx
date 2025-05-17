@@ -10,7 +10,7 @@ import { Button } from "bootstrap";
 
 function BannerLeft(){
     return <>
-        <div className="justify-content-center align-items-center mx-auto col-md-8 py-2">
+        <div className="justify-content-center align-items-center mx-auto col-md-8 py-2 my-5">
              <h1 className="banner-heading">Hi , I'm Ammrisha</h1>
              <p className="banner-para">A passionate Full Stack Software Developer  <br /> 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.</p>
              <SocialMediaLogo />

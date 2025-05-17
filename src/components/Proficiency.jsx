@@ -1,10 +1,13 @@
 import "../style/style.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLaptopCode} from '@fortawesome/free-solid-svg-icons';
+
 
 function Proficiency (){
     return <>
     <div className="container">
        <div className="row justify-content-between align-items-center mx-auto">
-            <h1 className="heading">Proficiency</h1>
+            <h1 className="heading"><FontAwesomeIcon icon={faLaptopCode} />  Proficiency</h1>
 
             <div className="col-md-6 my-5">
                 <h5>Frontend Development</h5>

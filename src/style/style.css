@@ -43,3 +43,44 @@ a{
     text-decoration: none !important;
     list-style: none;
 }
+
+
+.card-box-shadow{
+    background-color: #fff;
+    box-shadow: 0 10px 30px -15px #0003;
+    color: #586069;
+    cursor: pointer;
+    padding: 2rem;
+    transition: all .3s ease;
+    border-radius: 10px;
+}
+.heading{
+    color: #311a55;
+    font-weight: 700;
+}
+.card-heading{
+    color: black;
+    font-weight: bold;
+}
+
+.header .logo-name {
+    font-feature-settings: "liga","clig off";
+    font-family: Agustina Regular;
+    font-variant-ligatures: no-common-ligatures;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    font-weight: 700;
+    font-size: 30px;
+    color: #311a55;
+}
+
+ul li{
+    list-style: none;
+      font-family: 'Exo 2', sans-serif;
+  
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

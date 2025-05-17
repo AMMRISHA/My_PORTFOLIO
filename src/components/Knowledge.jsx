@@ -15,6 +15,7 @@ import { faJava} from '@fortawesome/free-brands-svg-icons';
 import { faNpm} from '@fortawesome/free-brands-svg-icons';
 import { faGithub} from '@fortawesome/free-brands-svg-icons';
 import { faGit} from '@fortawesome/free-brands-svg-icons';
+import { faBarsProgress} from '@fortawesome/free-solid-svg-icons';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -42,7 +43,7 @@ function Knowledge(){
           />
             </div>
             <div className="col-md-4  your-element-class" data-aos="fade-left">
-                <h1 className="">What I Do</h1>
+                <h1 className="heading"><FontAwesomeIcon icon={faBarsProgress} />   What I Do</h1>
                 <p className="banner-para">Code. Learn. Innovate. Repeat. – Full Stack Developer on a Mission</p>
                 <div className="row d-flex flex-wrap justify-content-center align-items-center text-secondary ">
                     <div className="col-md-2 justify-content-center align-items-center text-center">
