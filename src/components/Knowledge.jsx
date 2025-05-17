@@ -15,11 +15,23 @@ import { faJava} from '@fortawesome/free-brands-svg-icons';
 import { faNpm} from '@fortawesome/free-brands-svg-icons';
 import { faGithub} from '@fortawesome/free-brands-svg-icons';
 import { faGit} from '@fortawesome/free-brands-svg-icons';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+import { useEffect } from 'react';
+
 function Knowledge(){
+     useEffect(() => {
+        AOS.init({
+          duration: 1000, // animation duration
+          once: true      // only animate once
+        });
+      }, []);
     return <>
-        
+     <div className="container">
         <div className="row d-flex">
-            <div className="col-md-6">
+            <div className=" your-element-class col-md-6" data-aos="fade-right">
                  <video
             src="/coding.mp4"
             autoPlay
@@ -29,7 +41,7 @@ function Knowledge(){
             style={{ width: "70%", height: "auto" }}
           />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4  your-element-class" data-aos="fade-left">
                 <h1 className="">What I Do</h1>
                 <p className="banner-para">Code. Learn. Innovate. Repeat. – Full Stack Developer on a Mission</p>
                 <div className="row d-flex flex-wrap justify-content-center align-items-center text-secondary ">
@@ -95,6 +107,7 @@ function Knowledge(){
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </>
 }

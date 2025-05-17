@@ -12,10 +12,18 @@ function MainHeading(){
     });
   }, []);
 
+
   return (
-    <div>
-      <div data-aos="fade-right" className="your-element-class">
-        This will slide in from the left when you scroll!
+    <div className="container">
+      <div className="row">
+        <div data-aos="fade-right" className="col-md-6 your-element-class">
+          <h3>Left Section</h3>
+          <p>This will fade in from the left (AOS fade-right).</p>
+        </div>
+        <div data-aos="fade-left" className="col-md-6 your-element-class">
+          <h3>Right Section</h3>
+          <p>This will fade in from the right (AOS fade-left).</p>
+        </div>
       </div>
     </div>
   );
