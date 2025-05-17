@@ -74,13 +74,43 @@ a{
 }
 
 ul li{
-    list-style: none;
+   
       font-family: 'Exo 2', sans-serif;
   
 }
 ul{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-left: 0px !important;
 }
 
+.span-div{
+    background-color: #311a55;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex
+;
+    margin-top: -32px;
+    height: 100px;
+}
+.span-div .cirle{
+background-color: white;
+    width: 70px;
+    height: 70px;
+    margin-bottom: -60px;
+    justify-content: center;
+    align-items: center;
+    display: flex
+;
+    border-radius: 50%;
+}
+.span-div .cirle span{
+    background-color:white;
+    color: #311a55;
+   
+
+}
+.col-sm-new-12{
+    width: 30% !important;
+}

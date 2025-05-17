@@ -5,24 +5,29 @@ import { faLaptopCode} from '@fortawesome/free-solid-svg-icons';
 
 function Proficiency (){
     return <>
-    <div className="container">
-       <div className="row justify-content-between align-items-center mx-auto">
-            <h1 className="heading"><FontAwesomeIcon icon={faLaptopCode} />  Proficiency</h1>
+    <div className="container my-5">
+         <h1 className="heading"><FontAwesomeIcon icon={faLaptopCode} />  Proficiency</h1>
 
-            <div className="col-md-6 my-5">
+           
+       <div className="row justify-content-between align-items-center mx-auto">
+            <div className="col-md-6">
+                
                 <h5>Frontend Development</h5>
-                    <div className="col-md-12 my-3" style={{borderRadius:"10px" ,backgroundColor:"#f3efef" }}>
+                <br />
+                    <div className="col-md-10 my-3" style={{borderRadius:"10px" ,backgroundColor:"#f3efef" }}>
                     
                         <span style={{ width: "90%", height: "15px",borderTopLeftRadius: "10px",
                             borderBottomLeftRadius: "10px", backgroundColor: "rgb(65 123 126)", display: "block", marginBottom: "10px" }}></span>
                     </div>
                     <h5>Backend Development</h5>
-                    <div className="col-md-12  my-2"style={{borderRadius:"10px" , backgroundColor:"#f3efef"}}>
+                    <br />
+                    <div className="col-md-10  my-2"style={{borderRadius:"10px" , backgroundColor:"#f3efef"}}>
                         <span style={{ width: "80%",borderTopLeftRadius: "10px",
                             borderBottomLeftRadius: "10px" , height: "15px", backgroundColor: "rgb(65 123 126)", display: "block", marginBottom: "10px" }}></span>
                     </div>
                     <h5>Programming</h5>
-                    <div className="col-md-12  my-2" style={{borderRadius:"10px" , backgroundColor:"#f3efef"}}>
+                    <br />
+                    <div className="col-md-10  my-2" style={{borderRadius:"10px" , backgroundColor:"#f3efef"}}>
                         <span style={{ width: "70%",borderTopLeftRadius: "10px",
                             borderBottomLeftRadius: "10px", height: "15px", backgroundColor: "rgb(65 123 126)", display: "block", marginBottom: "10px" }}></span>
                     </div>
@@ -36,7 +41,7 @@ function Proficiency (){
             loop
             muted
             playsInline
-            style={{ width: "90%", height: "auto" }}
+            style={{ width: "80%", height: "auto" }}
           />
             </div>
          

@@ -7,16 +7,20 @@ function Contributions({contribute}){
     return <>
     <div className="container  my-5">
         <div className="row my-5 col-12">
-            <h2 className="heading text-center"><FontAwesomeIcon icon={faCode} /> Contributions</h2>
+            <h2 className="heading "><FontAwesomeIcon icon={faCode} /> Contributions</h2>
             {contribute.map((item , index)=>(
-                <div className="col-sm-12 col-md-4 card-box-shadow my-2" key={index}>
-                   
-                    <h2 className='card-heading'>{item.project}</h2>
-                     <ul>
-                        {item.task && item.task.map((t, idx) => (
-                            <li key={idx}>{t}</li>
+                <div className="col-sm-new-12 card-box-shadow mx-auto pt-5" key={index}>
+                   <div className="span-div">
+                        <div className="cirle">
+                           <span> <FontAwesomeIcon icon={faCode}  size="2x"  /></span>
+                        </div>
+                   </div>
+                    <h2 className='card-heading text-center my-4' style={{ listStyle: "none"}}>{item.project}</h2>
+                    <ul className='d-flex flex-column align-items-left p-4'>
+                        {item.task && item.task.slice(0, 2).map((t, idx) => (
+                            <li className='text-left' key={idx}>{t}</li>
                         ))}
-                        </ul>
+                    </ul>
                  
 
                 </div>

@@ -7,11 +7,11 @@ function Education({ education }) {
     <div className="container">
       <h2 className='heading'><FontAwesomeIcon icon={faUserGraduate} /> Education</h2>
       {education.map((item, index) => (
-        <div className="row my-5 d-flex" key={index}>
-            <div className="col-md-2">
+        <div className="row my-5 d-flex align-items-center" key={index}>
+            <div className="col-md-1">
                     <img src={item.logo} alt="" style={{ width: "100%",}} />
             </div>
-            <div className="col-md-8">
+            <div className="col-md-10">
                 <h4 className='card-heading'>{item.institution}</h4>
             <h6>{item.degree} — {item.year}</h6>
             

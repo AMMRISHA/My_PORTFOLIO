@@ -68,7 +68,7 @@ function App() {
     {
       project : "mdroverseas" ,
       task :[
-        "Build full blog features like create , edit , delete , serach blog " , "Created blog UI for the user"
+        "Build full blog features like create , edit , delete , serach blog ." ,"Created blog UI for the user ." ,
       ],
       link : "https://github.com/santoshvee/mdroverseas.com",
     }

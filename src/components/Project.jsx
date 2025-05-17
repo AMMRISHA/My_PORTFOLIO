@@ -9,14 +9,14 @@ function Project({ projectdetails}) {
         <div className="col-md-4">
             <h2 className='heading'> <FontAwesomeIcon icon={faListCheck} />  Projects</h2>
         </div>
-         <div className="col-md-4 d-flex justify-content-right">
+         <div className="col-md-4 d-flex justify-content-end">
            <a href="https://github.com/AMMRISHA" target="_blank"> <button className="btn btn-purple">See More Projects</button></a>
         </div>
        
           
       </div>
       
-      <div className="row d-flex my-5">
+      <div className="row d-flex my-1">
       { projectdetails.map((item, index) => (
       
 

@@ -30,7 +30,7 @@ function Knowledge(){
         });
       }, []);
     return <>
-     <div className="container">
+     <div className="container mx-auto ">
         <div className="row d-flex">
             <div className=" your-element-class col-md-6" data-aos="fade-right">
                  <video
@@ -42,10 +42,10 @@ function Knowledge(){
             style={{ width: "70%", height: "auto" }}
           />
             </div>
-            <div className="col-md-4  your-element-class" data-aos="fade-left">
+            <div className="col-md-6  your-element-class" data-aos="fade-left">
                 <h1 className="heading"><FontAwesomeIcon icon={faBarsProgress} />   What I Do</h1>
                 <p className="banner-para">Code. Learn. Innovate. Repeat. – Full Stack Developer on a Mission</p>
-                <div className="row d-flex flex-wrap justify-content-center align-items-center text-secondary ">
+                <div className="row d-flex flex-wrap justify-content-left align-items-center text-secondary ">
                     <div className="col-md-2 justify-content-center align-items-center text-center">
                         <FontAwesomeIcon icon={faHtml5} size="2x" />
                         <p>Html-5</p>
