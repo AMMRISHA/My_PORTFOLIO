@@ -13,7 +13,7 @@ function Navbar(){
                  <FontAwesomeIcon icon={faCode} />   Ammrisha Chowdhury <FontAwesomeIcon icon={faCode} />
                 </div>
             </a>
-            <ul className="d-flex justify-content-between align-items-center w-100  ">
+            <ul className="d-flex justify-content-between align-items-center w-100  " style={{listStyle : 'none'}}>
                 <li>work</li>
                 <li>Proficiency</li>
                 <li>Education</li>

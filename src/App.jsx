@@ -38,12 +38,12 @@ function App() {
     },
     {
       name:"Portfolio" ,
-      title :"🔹 React + JavaScript Based Interactive Portfolio " ,
+      title :"🚀 React + JavaScript Based Interactive Portfolio " ,
       link : "https://github.com/AMMRISHA/My_PORTFOLIO" ,
     } ,
     {
       name : "WowFood",
-      title :"Full-Stack Food Delivery Management App using PHP, MySQL, and JavaScript",
+      title :"🚀 Full-Stack Food Delivery Management App using PHP, MySQL, and JavaScript",
       link: "https://github.com/AMMRISHA/WowFood",
     }
 
@@ -78,18 +78,18 @@ function App() {
     {
       company:"Sash Info Services Pvt. Ltd.",
       profile : "Full Stack Developer - Internship" ,
-      startdate : "Feb , 2025" ,
-      enddate : "May , 2025" ,
+      startdate : "Feb 2025" ,
+      enddate : "May 2025" ,
       type : "Hybrid" ,
     } ,
     {
       company:"HossainInterior",
       profile : "Full Stack Developer - Freelancing" ,
-      startdate : "March , 2024" ,
-      enddate : "August , 2024" ,
+      startdate : "March 2024" ,
+      enddate : "August 2024" ,
       type : "Remote" ,
     }
-  ];
+  ]
   return (
     <>
     <div className="banner mx-auto">

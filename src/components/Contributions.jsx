@@ -9,7 +9,7 @@ function Contributions({contribute}){
         <div className="row my-5 col-12">
             <h2 className="heading "><FontAwesomeIcon icon={faCode} /> Contributions</h2>
             {contribute.map((item , index)=>(
-                <div className="col-sm-new-12 card-box-shadow mx-auto pt-5" key={index}>
+                <div className="col-sm-new-12 card-box-shadow mx-auto my-3 pt-5" key={index}>
                    <div className="span-div">
                         <div className="cirle">
                            <span> <FontAwesomeIcon icon={faCode}  size="2x"  /></span>
@@ -21,6 +21,7 @@ function Contributions({contribute}){
                             <li className='text-left' key={idx}>{t}</li>
                         ))}
                     </ul>
+                    <button className="btn btn-purple">Read More</button>
                  
 
                 </div>

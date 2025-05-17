@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBuilding} from '@fortawesome/free-solid-svg-icons';
+import { faBook} from '@fortawesome/free-solid-svg-icons';
 
 import '../style/style.css';
 
@@ -19,12 +20,15 @@ function Experience({experience }){
       
             <div className="row d-flex">
            {experience.map((item , index)=>(
-                <div className="col-md-4 my-2 card-box-shadow" key={index}>
-                    <h2 >{item.company}</h2>
-                    <h2>{item.profile}</h2>
-                    <p>{item.startdate}-{item.enddate}</p>
+                <div className=" blog-card col-md-4 my-2 mx-2 card-box-shadow position-relative" key={index}>
+                  
+                    <div className="go-corner"><div class="go-arrow">→</div> </div>
+                        <h4 className='card-heading-2 my-4'> <FontAwesomeIcon icon={faBook} /> {item.company}</h4>
+                        <h2 className='middle-heading'>{item.profile}</h2>
+                        <p>{item.startdate}-{item.enddate}</p>
+                  
                 </div>
-           ))} ;
+           ))} 
         </div>
         </div>
     </>
