@@ -10,7 +10,8 @@ import Project from './components/Project';
 import Contributions from './components/Contributions';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
-
+import Skills from './components/Skills';
+import Navbar from './components/Navbar';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -89,19 +90,49 @@ function App() {
       enddate : "August 2024" ,
       type : "Remote" ,
     }
-  ]
+  ];
+
+  const skills =[
+     {
+        category: 'Frontend',
+        technologies: ['HTML & CSS', 'JavaScript', 'React', 'Bootstrap', 'FontAwesome']
+    },
+    {
+    category: 'Backend',
+    technologies: ['Laravel' , 'Php & Mysql' , 'Node' , 'MongoDb']
+  },
+  {
+    category: 'Programming Language',
+    technologies: ['C/C++' , 'Python' , 'Javascript']
+  },
+  {
+    category: 'Version Control',
+    technologies: ['Git' , 'Github']
+  },
+  {
+    category: 'Hosting Knowledge',
+    technologies: ['Bigrock' , 'Godddy']
+  },
+  {
+    category: 'Others',
+    technologies: ['Photoshop' , 'Figma' , 'Ms-Excel' , 'Ms-Office' ,'Canva' , 'Powerpoint']
+  }
+  
+  
+    ];
   return (
     <>
     <div className="banner mx-auto">
-   
-          <Banner />
-          <Knowledge />
-          <Proficiency />
-         <Education education={educationDetails} />
-         <Project projectdetails={projectdetails} />
-         <Contributions contribute ={contribute } />
-         <Experience experience ={experience } />
-        <Contact />
+        <Navbar />
+         <div id="banner"><Banner /></div>
+        <div id="knowledge"><Knowledge /></div>
+        <div id="proficiency"><Proficiency /></div>
+        <div id="education"><Education education={educationDetails} /></div>
+        <div id="projects"><Project projectdetails={projectdetails} /></div>
+        <div id="contributions"><Contributions contribute={contribute} /></div>
+        <div id="experience"><Experience experience={experience} /></div>
+        <div id="skills"><Skills skills={skills} /></div>
+        <div id="contact"><Contact /></div>
 
 
     </div>

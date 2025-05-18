@@ -1,3 +1,8 @@
+#root{
+    overflow: hidden;
+}
+
+
 body{
         font: 19px / 23px Montserrat, sans-serif;
 }
@@ -35,9 +40,7 @@ body{
 .a-purple{
     color: #311a55;
 }
-span{
-    background-color: #311a55;
-}
+
 
 a{
     text-decoration: none !important;
@@ -199,4 +202,120 @@ background-color: white;
    .col-sm-new-12{
     width: 50% !important;
    } 
+}
+
+@media (max-width:1120px) {
+    .banner-left-resp{
+        width: 100% !important;
+        justify-content: center;
+        text-align: center;
+        padding: 2px !important;
+    }
+    .logo-div , .btn-resp {
+        justify-content: center;
+        margin: auto;
+    }
+    .img-resp {
+        display: flex;
+    }
+}
+@media (max-width:820px) {
+    .nav-resp{
+        flex-wrap: wrap;
+       
+    }
+    .nav-ul-resp{
+        margin-top: 30px !important;
+    }
+    .banner-resp {
+        padding: 2px !important;
+    }
+    .knowledge-resp{
+        flex-wrap: wrap !important;
+        flex-direction: column-reverse;
+    }
+     .knowledge-resp .col-md-6{
+        width: 100% !important;
+     }
+     .fade-right-resp{
+        margin-top: 40px !important;
+        width: 80% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .your-element-class video{
+        width: 50% !important;
+     }
+     .pro-resp{
+        flex-wrap: wrap;
+        justify-content: center !important;
+        align-items: center !important;
+     }
+     .pro-resp .col-md-6{
+        width: 100%;
+        
+     }
+     .responsive{
+        display: flex;
+
+     }
+     .edu-img-resp{
+        width: 70% !important;
+     }
+     #education .col-sm-8{
+        width: 70% !important;
+     }
+}
+
+@media (max-width:780px) {
+     .kno-col-resp{
+        width: 100px !important;
+    }
+    .kno-row-resp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-resp strong{
+        font-size: 15px;
+    }
+    .contact-resp-down{
+        margin: unset !important;
+        padding: unset !important;
+    }
+}
+@media (max-width:580px) {
+    .col-sm-new-12{
+        width: 100%  !important;
+    }
+    .banner-left-resp h1 {
+        font-size: 30px;
+    }
+    .banner-left-resp p{
+        font-size: 20px;
+    }
+    .container{
+        width: 100% !important;
+        padding: 20px !important;
+    }
+    .banner-resp{
+        padding: 10px !important;
+    }
+   
+}
+@media (max-width:500px) {
+    #education{
+        display: flex;
+    }
+     #education .col-sm-8{
+        width: 100% !important;
+     }
+     #education .col-md-2{
+        width:20%;
+        margin-bottom: 20px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        display: flex;
+     }
 }

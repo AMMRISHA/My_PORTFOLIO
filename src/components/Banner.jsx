@@ -4,14 +4,13 @@ import "../style/style.css";
 
 import BannerLeft from './BannerLeft';
 import BannerRight from './BannerRight';
-import Navbar from './Navbar';
+
 
 const Banner = () => {
   return (
-    <div className="container-fluid position-relative ">
-      <Navbar />
+    <div className="container-fluid position-relative w-100 ">
     
-      <div className=" container d-flex mx-auto flex-wrap align-items-center fw-bold  p-5 row">
+      <div className=" banner-resp container d-flex mx-auto flex-wrap align-items-center fw-bold  p-5 row">
         <BannerLeft/>
         < BannerRight/>
       </div>

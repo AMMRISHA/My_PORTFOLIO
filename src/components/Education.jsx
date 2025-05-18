@@ -8,8 +8,8 @@ function Education({ education }) {
       <h2 className='heading'><FontAwesomeIcon icon={faUserGraduate} /> Education</h2>
       {education.map((item, index) => (
         <div className="row my-5 d-flex align-items-center" key={index}>
-            <div className="col-sm-4 col-md-2 col-1">
-                    <img src={item.logo} alt="" style={{ width: "100%",}} />
+            <div className=" col-md-2 col-2">
+                    <img className="edu-img-resp" src={item.logo} alt="" style={{ width: "100%",}} />
             </div>
             <div className="col-sm-8 col-md-8">
                 <h4 className='card-heading'>{item.institution}</h4>

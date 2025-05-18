@@ -9,7 +9,7 @@ function Proficiency (){
          <h1 className="heading"><FontAwesomeIcon icon={faLaptopCode} />  Proficiency</h1>
 
            
-       <div className="row justify-content-between align-items-center mx-auto">
+       <div className="pro-resp row justify-content-between align-items-center mx-auto">
             <div className="col-md-6">
                 
                 <h5>Frontend Development</h5>
