@@ -19,14 +19,17 @@ function App() {
     {
       degree: "Master Of Computer Application ",
       institution: "Kalyani University",
-      year: "2022 - 2024",
+      year: "Nov 2022 - Jul 2024",
       logo:"/kalyani_university.png" ,
+      cgpa : 'CGPA : 8.06' ,
+
     },
     {
       degree: "Bachelor Of Computer Science",
-      institution: "Netaji Nagar Day College",
-      year: "2019 - 2022",
+      institution: "Netaji Nagar Day College , University Of Calcutta",
+      year: "Jun 2019 - Aug 2022",
       logo:"/netaji_nagar.png",
+      cgpa : 'CGPA : 8.2',
     }
   ];
 

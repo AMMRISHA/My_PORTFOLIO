@@ -18,9 +18,9 @@ function Experience({experience }){
             
                 </div>
       
-            <div className="row d-flex">
+            <div className="row ">
            {experience.map((item , index)=>(
-                <div className=" blog-card col-md-4 my-2 mx-2 card-box-shadow position-relative" key={index}>
+                <div className=" blog-card col-md-5 my-2 mx-2 card-box-shadow position-relative" key={index}>
                   
                     <div className="go-corner"><div class="go-arrow">→</div> </div>
                         <h4 className='card-heading-2 my-4'> <FontAwesomeIcon icon={faBook} /> {item.company}</h4>

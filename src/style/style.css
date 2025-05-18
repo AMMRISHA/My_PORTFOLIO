@@ -172,7 +172,7 @@ background-color: white;
   position: absolute;
   top: 0;
   right: 0;
-  width: 10px;
+  width: 11px;
   height: 10px;
   background: #55198b;
   border-radius: 32px;
@@ -181,7 +181,9 @@ background-color: white;
   transition: transform 0.4s ease-out;
   z-index: -1;
 }
-
+.navbar-expand-md .navbar-collapse{
+    justify-content: space-evenly;
+}
 /* On hover: expand to fill */
 .blog-card:hover::before {
   transform: scale(50); /* Large enough to cover full card */
