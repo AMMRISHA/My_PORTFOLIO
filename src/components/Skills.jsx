@@ -20,7 +20,7 @@ function Skills({skills}){
                    </div>
       
               <h5 className="card-heading text-center my-4">{skill.category}</h5>
-              <ul className="d-flex flex-column align-items-left p-4"  style={{ listStyle: "none"}}>
+              <ul className="d-flex flex-column align-items-left p-4"  style={{ listStyle: "none" , fontSize:'20px' , fontWeight:'bold'}}>
                 {skill.technologies.map((tech, idx) => (
                   <li key={idx}> • {tech}</li>
                 ))}

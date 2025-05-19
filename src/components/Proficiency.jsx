@@ -5,7 +5,7 @@ import { faLaptopCode} from '@fortawesome/free-solid-svg-icons';
 
 function Proficiency (){
     return <>
-    <div className="container my-5">
+    <div className="container my-5 mx-auto">
          <h1 className="heading"><FontAwesomeIcon icon={faLaptopCode} />  Proficiency</h1>
 
            
@@ -33,7 +33,7 @@ function Proficiency (){
                     </div>
                     
             </div>
-            <div className="col-md-6 responsive justify-content-center align-items-center">
+            <div className="col-md-6 responsive d-flex justify-content-center align-items-center">
              
                  <video
             src="/efficiency.mp4"
