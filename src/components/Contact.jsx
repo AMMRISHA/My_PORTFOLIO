@@ -9,7 +9,7 @@ function Contact(){
         <div className="container my-5 mx-auto justify-content-center align-items-center">
             <div className="row card-box-shadow mx-auto">
                 <h2 className='heading'><FontAwesomeIcon icon={faAddressBook} size="" />    Contact with me</h2>
-                <div className="contact-resp col-md-5 col-sm-12  mx-2 my-5 p-5" style={{backgroundColor : "white" , color:"rgb(45 94 89)" , fontSize:"20px" }}>
+                <div className="contact-resp col-md-5 col-sm-12  mx-2 my-5 " style={{backgroundColor : "white" , color:"rgb(45 94 89)" , fontSize:"20px" }}>
                 
                         <strong>  <FontAwesomeIcon icon={faEnvelope} />  Email : ammrishachowdhury821@gmail.com </strong> 
                     <br />

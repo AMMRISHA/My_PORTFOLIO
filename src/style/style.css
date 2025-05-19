@@ -289,6 +289,9 @@ background-color: white;
         margin: unset !important;
         padding: unset !important;
     }
+    .contact-resp {
+        padding:  unset !important;
+    }
 }
 @media (max-width:580px) {
     .col-sm-new-12{
@@ -325,4 +328,14 @@ background-color: white;
         align-items: center !important;
         display: flex;
      }
+}
+
+@media (max-width:490px) {
+        .contact-resp strong {
+        font-size: 10px;
+    }
+    .contact-resp{
+        align-items: center;
+    }
+
 }
