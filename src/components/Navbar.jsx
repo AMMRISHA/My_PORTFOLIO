@@ -4,7 +4,7 @@ import '../style/style.css';
 
 function Navbar() {
     return (
-        <nav className=" nav-resp d-flex  navbar navbar-expand-md bg-white  px-1 p-5">
+        <nav className=" nav-resp d-flex flex-wrap  navbar navbar-expand-md bg-white  px-1 p-5">
             <div className="container-fluid ">
                 <a className="navbar-brand d-flex align-items-center" href="#" style={{ fontFamily: "'Dancing Script', cursive" , color:"#311a55" , fontWeight:"bold" , fontSize:'30px' }}>
                     <FontAwesomeIcon icon={faCode} className="me-2" />
@@ -17,8 +17,9 @@ function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav text-center" style={{ listStyle: 'none' , width:'80%' , fontWeight:'bold'}}>
+                <div className="collapse navbar-collapse " id="navbarNav">
+                    <ul className="navbar-nav text-center" style={{ listStyle: 'none' , width:'100%' , fontWeight:'bold'}}>
+                        <li className="nav-item"><a href="" className="nav-link text-black"></a></li>
                         <li className="nav-item"><a href="#knowledge" className="nav-link text-black">Work</a></li>
                         <li className="nav-item"><a href="#proficiency" className="nav-link text-black">Proficiency</a></li>
                         <li className="nav-item"><a href="#education" className="nav-link text-black">Education</a></li>

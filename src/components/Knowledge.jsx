@@ -30,7 +30,7 @@ function Knowledge(){
         });
       }, []);
     return <>
-     <div className="  container mx-auto ">
+     <div className=" my-5 container mx-auto ">
         <div className="knowledge-resp row d-flex">
             <div className="fade-right-resp your-element-class col-md-6" data-aos="fade-right">
                  <video
@@ -44,7 +44,7 @@ function Knowledge(){
             </div>
             <div className="col-md-6  your-element-class" data-aos="fade-left">
                 <h1 className="heading"><FontAwesomeIcon icon={faBarsProgress} />   What I Do</h1>
-                <p className="banner-para">Code. Learn. Innovate. Repeat. – Full Stack Developer on a Mission</p>
+                <p className="banner-para">Full Stack Developer passionate about learning and exploring new technologies.</p>
                 <div className="row kno-row-resp d-flex flex-wrap justify-content-left align-items-center text-secondary ">
                     <div className="kno-col-resp col-md-2 justify-content-center align-items-center text-center">
                         <FontAwesomeIcon icon={faHtml5} size="2x" />

@@ -21,8 +21,7 @@ function Contributions({contribute}){
                             <li className='text-left' key={idx}>{t}</li>
                         ))}
                     </ul>
-                    <button className="btn btn-purple">Read More</button>
-                 
+                   
 
                 </div>
             ))}

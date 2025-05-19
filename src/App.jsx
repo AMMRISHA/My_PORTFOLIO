@@ -1,5 +1,6 @@
 import { useState } from 'react'
 
+
 import Banner from './components/Banner';
 import "./style/style.css";
 import Knowledge from './components/Knowledge';
@@ -56,7 +57,7 @@ function App() {
     {
       project : "Fbaukltd" ,
       task : [
-        "Handle staff management page according to the the authentication like without authrization staff cannot edit other staff's profile" , "Authentic staff can handle edit other staff details" , " Authentic staff can unlock someone's profile so that that person unable to edit their profile" , "Documents expiry notification to be send to the paricular staff and authorized staff also like passport , visa expiry" , "Build search button for the all notification page " , "created notification email templates"
+        "Handle staff management page according to the the authentication like without authrization staff cannot edit other staff's profile" , "Authentic staff can handle also edit other staff details" , " Authentic staff can unlock someone's profile so that that person unable to edit their profile" , "Documents expiry notification to be send to the paricular staff and authorized staff also like passport , visa expiry" , "Build search button for the all notification page " , "created notification email templates"
         ],
       link : "https://github.com/santoshvee/fbaukltd" ,
     
@@ -102,7 +103,7 @@ function App() {
     },
     {
     category: 'Backend',
-    technologies: ['Laravel' , 'Php & Mysql' , 'Node' , 'MongoDb']
+    technologies: ['Laravel' , 'Php & Mysql' , 'Node' , 'MongoDb' , 'Ajax' , 'json']
   },
   {
     category: 'Programming Language',
@@ -118,7 +119,7 @@ function App() {
   },
   {
     category: 'Others',
-    technologies: ['Photoshop' , 'Figma' , 'Ms-Excel' , 'Ms-Office' ,'Canva' , 'Powerpoint']
+    technologies: ['Photoshop'  , 'Ms-Excel' , 'Ms-Office' ,'Canva' , 'Powerpoint']
   }
   
   

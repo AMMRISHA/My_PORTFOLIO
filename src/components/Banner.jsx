@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <div className="container-fluid position-relative w-100 ">
     
-      <div className=" banner-resp container d-flex mx-auto flex-wrap align-items-center fw-bold  p-5 row">
+      <div className=" banner-resp container d-flex mx-auto flex-wrap align-items-center fw-bold  p-3 row">
         <BannerLeft/>
         < BannerRight/>
       </div>
